@@ -3,22 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".TaskFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
+        android:id="@+id/layout_task_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="13dp"
         android:gravity="center_vertical">
 
-        <ImageButton
-            android:id="@+id/btn_task_back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_task_back"
-            android:contentDescription="Back Button"/>
+<!--        <ImageButton-->
+<!--            android:id="@+id/btn_task_back"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_task_back"-->
+<!--            android:contentDescription="Back Button"/>-->
 
         <TextView
             android:layout_width="match_parent"
@@ -27,6 +29,11 @@
             android:textSize="18sp"
             android:textColor="#FF914C" />
     </LinearLayout>
+    <ListView
+        android:id="@+id/listview_task"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -41,8 +48,6 @@
             android:layout_alignParentBottom = "true"
             android:layout_alignParentRight = "true"
             android:layout_margin = "16dp"
-            android:src ="@drawable/ic_task_plus" />
+            android:src="@drawable/ic_task_plus2"/>
     </RelativeLayout>
-
-
 </FrameLayout>

@@ -72,8 +72,18 @@ public class HomeFragment extends Fragment {
                 "Koki Memasak",
                 "Marketing Membuat Banner",
                 "Koki Menyiapkan Menu Mingguan",
-                "Item 4",
-                "Item 5"
+                "Kurir Mengantarkan Barang",
+                "Marketing membuat feed instagram",
+                "Koki Memasak",
+                "Marketing Membuat Banner",
+                "Koki Menyiapkan Menu Mingguan",
+                "Kurir Mengantarkan Barang",
+                "Marketing membuat feed instagram",
+                "Koki Memasak",
+                "Marketing Membuat Banner",
+                "Koki Menyiapkan Menu Mingguan",
+                "Kurir Mengantarkan Barang",
+                "Marketing membuat feed instagram"
         };
 
         listView = view.findViewById(R.id.lv_menu);
