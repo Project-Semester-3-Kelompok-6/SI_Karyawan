@@ -1,5 +1,6 @@
 package com.polije.sisteminformasikaryawan;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -62,15 +63,16 @@ public class TaskFragment extends Fragment {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, dummyData);
         listView.setAdapter(adapter);
 
-//        fab = view.findViewById(R.id.btn_task_plus);
-//
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
+        fab = view.findViewById(R.id.btn_task_plus);
+
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 //                Toast.makeText(getActivity(), "You have clicked on the floating button", Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//
+                Intent intent = new Intent(getActivity(), AddTaskActivity.class);
+                startActivity(intent);
+            }
+        });
         return view;
 
 

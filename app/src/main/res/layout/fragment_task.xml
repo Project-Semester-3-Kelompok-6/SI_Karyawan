@@ -45,9 +45,10 @@
             android:id="@+id/btn_task_plus"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:layout_alignParentBottom = "true"
-            android:layout_alignParentRight = "true"
-            android:layout_margin = "16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="30dp"
             android:src="@drawable/ic_task_plus2"/>
     </RelativeLayout>
 </FrameLayout>
